@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/rentals
+
+###
+POST http://localhost:3000/api/rentals
+Content-Type: application/json
+
+{
+   
+    "customerId":"62c148170c0a64124f24433b",
+    "movieId":"62c1479c0c0a64124f244338"
+}
