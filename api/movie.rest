@@ -3,7 +3,7 @@ GET http://localhost:3000/
 ###
 POST http://localhost:3000/
 Content-Type: application/json
-x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmMxNDQ3OTBjMGE2NDEyNGYyNDQzMmMiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2NTY4MzM3Nzh9.z2uIyta4tSvdFEAd0AsHGbQ8uRDVaXbi64mi0qnDf4g
+x-auth-token:
 
 {
     "title": "Hera Feri 2",
@@ -18,10 +18,10 @@ PUT http://localhost:3000/62aef0dbef059c8bd7d903de
 Content-Type: application/json
 
 {
-    "title": "Dhoom3",
-    "genre": {"genreId": "62b04c193deefc65cec95e21" },
+     "title": "Hera Feri 3",
+    "genreId": "62c1451b0c0a64124f24432f",
     "numberInStock": 6,
-    "dailyRentalRate": 10,
+    "dailyRentalRate": 3,
     "publishDate": "2018-01-03T19:04:28.809Z"
 }
 

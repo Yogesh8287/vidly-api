@@ -3,8 +3,7 @@ GET http://localhost:3000/genre
 ###
 POST http://localhost:3000/genre
 Content-Type: application/json
-x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmI1ODliZmQ3YThiYTRmNTQ1MWUzNzEiLCJpYXQiOjE2NTYwNzI2ODJ9.CfoIVyQW8PXom7X0WGkWkhgjc5kYkevS5ZGZDMD4zzo
-
+x-auth-token:
 
 {
     "name":"comedy"

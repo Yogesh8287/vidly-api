@@ -5,9 +5,9 @@ POST http://localhost:3000/customer
 Content-Type: application/json
 
 {
-"name":"Hardik",
-"isGold":true,
-"Phone":8287940985
+"name":,
+"isGold":,
+"Phone":
 }
 
 ###
@@ -15,7 +15,9 @@ PUT http://localhost:3000/customer/
 Content-Type: application/json
 
 {
-
+"name":,
+"isGold":,
+"Phone":
 }
 
 ###
